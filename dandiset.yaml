@@ -66,7 +66,14 @@ contributor:
   - dcite:Funder
   - dcite:Author
   schemaKey: Person
+- awardNumber: 'R01MH112661 '
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-05-01T14:47:00.350607+00:00'
+datePublished: '2024-05-11T03:07:10.716024+00:00'
 description: This dataset contains data from 8 animals (male Long Evans rats) learning
   a W-Track alternation task in a single day over 8 behavioral sessions (interleaved
   with sleep - 17 total epochs). Data includes position information (including velocity),
@@ -78,7 +85,12 @@ ethicsApproval:
   schemaKey: EthicsApproval
 id: DANDI:000978/draft
 identifier: DANDI:000978
-keywords: []
+keywords:
+- Hippocampus
+- Prefrontal cortex
+- Learning
+- Sleep
+- Electrophysiology
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -86,6 +98,18 @@ manifestLocation:
 name: Single Day W-Track Learning
 protocol:
 - https://star-protocols.cell.com/protocols/2913
+publishedBy:
+  endDate: '2024-05-11T03:07:10.716024+00:00'
+  id: urn:uuid:716139e4-b7f1-4f49-a553-64c39ad24144
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-05-11T03:07:10.716024+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:465e16c1-9b0f-42fc-87b3-2b4ede9e9f6c
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
