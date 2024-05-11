@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000978
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -28,8 +29,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 275869236680
-  numberOfFiles: 8
+  numberOfBytes: 322981345984
+  numberOfFiles: 9
   numberOfSubjects: 8
   schemaKey: AssetsSummary
   species:
@@ -44,8 +45,8 @@ assetsSummary:
   - ElectrodeGroup
   - Units
   - ElectricalSeries
-citation: Shin, Justin (2024) Single Day W-Track Learning (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000978/draft
+citation: Shin, Justin; Jadhav, Shantanu (2024) Single Day W-Track Learning (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000978/draft
 contributor:
 - affiliation: []
   email: jdshin@brandeis.edu
@@ -53,21 +54,43 @@ contributor:
   name: Shin, Justin
   roleName:
   - dcite:ContactPerson
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:Investigation
+  - dcite:Methodology
+  schemaKey: Person
+- includeInCitation: true
+  name: Jadhav, Shantanu
+  roleName:
+  - dcite:Supervision
+  - dcite:Funder
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2024-05-01T14:47:00.350607+00:00'
 description: This dataset contains data from 8 animals (male Long Evans rats) learning
   a W-Track alternation task in a single day over 8 behavioral sessions (interleaved
   with sleep - 17 total epochs). Data includes position information (including velocity),
   spike times for dorsal CA1 and prefrontal single units, and local field potential.
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: IACUC24001-A
+  schemaKey: EthicsApproval
 id: DANDI:000978/draft
 identifier: DANDI:000978
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000978/versions/draft/assets/
 name: Single Day W-Track Learning
+protocol:
+- https://star-protocols.cell.com/protocols/2913
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000978/draft
 version: draft
+wasGeneratedBy: []
